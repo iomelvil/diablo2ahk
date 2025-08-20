@@ -1,0 +1,79 @@
+#ifwinactive ahk_class OsWindow
+
+F1::
+{
+	send {Enter}
+	sleep, 100
+	Send /players1
+	send {Enter}
+	return
+}
+
+F2::
+{
+	send {Enter}
+	sleep, 100
+	Send /players2
+	send {Enter}
+	return
+}
+
+F3::
+{
+	send {Enter}
+	sleep, 100
+	Send /players3
+	send {Enter}
+	return
+}
+
+F4::
+{
+	send {Enter}
+	sleep, 100
+	Send /players4
+	send {Enter}
+	return
+}
+
+F5::
+{
+	send {Enter}
+	sleep, 100
+	Send /players5
+	send {Enter}
+	return
+}
+
+F6::
+{
+	send {Enter}
+	sleep, 100
+	Send /players6
+	send {Enter}
+	return
+}
+
+F7::
+{
+	send {Enter}
+	sleep, 100
+	Send /players7
+	send {Enter}
+	return
+}
+
+F8::
+{
+	send {Enter}
+	sleep, 100
+	Send /players8
+	send {Enter}
+	return
+}
+
+
+return
+
+#ifwinactive
+~end::ExitApp
